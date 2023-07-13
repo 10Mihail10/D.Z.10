@@ -1,0 +1,263 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-position {
+  height: 80px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.nav-list {
+  display: flex;
+  text-align: center;
+  margin-left: 93px;
+}
+
+.nav-list-item + .nav-list-item {
+  margin-left: 50px;
+}
+.header-contacts-list {
+  display: flex;
+  margin-left: auto;
+}
+.contacts-item + .contacts-item {
+  margin-left: 50px;
+}
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.contacts-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+.contacts-item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.hero {
+  background: #2f303a;
+  outline: 2px solid black;
+  height: 600px;
+  width: 1600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hero-title {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 200px;
+}
+
+.hero-button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: white;
+  background-color: #2196f3;
+  border-radius: 4px;
+}
+
+.features {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.features-title {
+  opacity: 0;
+  margin: 0;
+}
+.features-name {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.features-list {
+  display: flex;
+}
+.features-list-item {
+  width: 270px;
+}
+.features-list-item + .features-list-item {
+  margin-left: 30px;
+}
+.features-name-decs {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.service {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.service-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.service-list {
+  display: flex;
+  margin-left: -30px;
+}
+.service-list-item {
+  margin-left: 30px;
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.team {
+  margin-top: 94px;
+}
+.team-title {
+  font-size: 36px;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.team-list {
+  display: flex;
+  margin-left: -30px;
+}
+.team-list-item {
+  margin-left: 30px;
+  flex-basis: calc((100% - 90px) / 4);
+}
+.team-desc {
+  padding: 30px 62px;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-name-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+footer {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-logo-web {
+  color: #2196f3;
+}
+.footer-logo-studio {
+  font-family: "Oleo Script";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-name {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-contacts {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
